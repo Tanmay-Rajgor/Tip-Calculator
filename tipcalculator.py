@@ -1,0 +1,7 @@
+print("Your total bill is $150.")
+tip = input("Would You like to add 10%, 12%, 14% tip on this amount ? : ")
+finalamount = 150 + (150*int(tip)/100)
+print(f"So final bill amount is {finalamount} after adding tip.")
+split = input("Between How many people you want to split the bill ? : ")
+final = finalamount/int(split)
+print(f"Individual Bill is {final}")
